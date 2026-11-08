@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gangula Akshaya - Personal Portfolio">
+    <title>Gangula Akshaya | Portfolio</title>
+    <link rel="icon" href="assets/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- WELCOME PAGE -->
+    <section class="welcome-screen" id="welcomeScreen">
+        <header class="welcome-header">
+            <a href="#" class="logo">GA<span>.</span></a>
+            <p>PERSONAL PORTFOLIO | 2027</p>
+        </header>
+
+        <div class="welcome-content">
+            <p class="eyebrow">WELCOME TO MY DIGITAL SPACE</p>
+
+            <h1>Gangula <span>Akshaya</span></h1>
+
+            <p class="welcome-description">
+                Explore my journey, technical skills, projects,
+                education and career aspirations.
+            </p>
+
+            <nav class="welcome-buttons">
+                <a href="#about" data-section="about">About Me</a>
+                <a href="#projects" data-section="projects">Projects</a>
+                <a href="#resume" data-section="resume">Resume</a>
+                <a href="#skills" data-section="skills">Technical Skills</a>
+                <a href="#education" data-section="education">Education</a>
+                <a href="#certifications" data-section="certifications">Certifications</a>
+                <a href="#contact" data-section="contact">Contact</a>
+            </nav>
+
+            <button class="start-button" id="startButton">
+                LET'S START <span>→</span>
+            </button>
+
+            <p class="welcome-footer">Learning · Building · Growing</p>
+        </div>
+    </section>
+
+    <!-- MAIN PORTFOLIO -->
+    <div id="portfolio" class="hidden">
+
+        <header class="navbar">
+            <a href="#home" class="logo">GA<span>.</span></a>
+
+            <button id="menuButton" class="menu-button">☰</button>
+
+            <nav id="navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button id="themeButton" class="theme-button">☼</button>
+        </header>
+
+        <!-- HOME -->
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>Gangula <span>Akshaya</span></h1>
+
+                <h2>Computer Science Student | Aspiring Java Developer</h2>
+
+                <p>
+                    I am a final-year B.Tech Computer Science student
+                    interested in Java development, software engineering
+                    and problem-solving.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">Explore Projects</a>
+                    <a href="#contact" class="button secondary">Contact Me</a>
+                </div>
+
+                <p class="location">📍 Enugupalem, Andhra Pradesh | 🎓 2027</p>
+            </div>
+
+            <div class="profile">
+                <img src="assets/profile.jpg"
+                     alt="Gangula Akshaya"
+                     onerror="this.style.display='none';document.getElementById('photoPlaceholder').style.display='grid';">
+
+                <div id="photoPlaceholder" class="photo-placeholder">
+                    <span>GA</span>
+                    <small>ADD YOUR PHOTO</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="content-card">
+                <p>
+                    I am a final-year B.Tech student in Computer Science
+                    and Engineering at QIS College of Engineering and
+                    Technology. I am interested in Java development,
+                    software engineering and problem-solving.
+                    I enjoy learning new technologies and applying
+                    my knowledge through practical projects.
+                </p>
+
+                <h3>Career Objective</h3>
+
+                <p>
+                    As a Computer Science Engineering student seeking
+                    to launch a professional career in software
+                    development by applying strong technical
+                    fundamentals, problem-solving skills and
+                    hands-on project experience. Motivated to
+                    contribute to impactful projects while
+                    continuously learning and growing within
+                    the organization.
+                </p>
+
+                <div class="details-grid">
+                    <div><small>DEGREE</small><strong>B.Tech – CSE</strong></div>
+                    <div><small>COLLEGE</small><strong>QIS College of Engineering and Technology</strong></div>
+                    <div><small>GRADUATION</small><strong>2027</strong></div>
+                    <div><small>CAREER INTEREST</small><strong>Java Developer</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I KNOW</p>
+                <h2>Technical <span>Skills</span></h2>
+            </div>
+
+            <div class="card-grid">
+                <div class="info-card">
+                    <h3>Programming Languages</h3>
+                    <div class="chips"><span>C</span><span>Java</span></div>
+                </div>
+
+                <div class="info-card">
+                    <h3>Web Development</h3>
+                    <div class="chips"><span>HTML</span><span>CSS</span></div>
+                </div>
+
+                <div class="info-card">
+                    <h3>Database Technologies</h3>
+                    <div class="chips"><span>SQL</span><span>MySQL</span></div>
+                </div>
+
+                <div class="info-card">
+                    <h3>Java Technologies</h3>
+                    <div class="chips"><span>JDBC</span></div>
+                </div>
+            </div>
+
+            <div class="content-card extra-skills">
+                <h3>Soft Skills</h3>
+                <p>Communication Skills · Teamwork · Time Management · Willingness to Learn · Documentation · Internet Research</p>
+
+                <h3>Languages</h3>
+                <p>English · Telugu · Hindi</p>
+
+                <h3>Hobbies</h3>
+                <p>Surfing the Internet · Documentation</p>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section" id="education">
+            <div class="section-heading">
+                <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                <h2>My <span>Education</span></h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-card">
+                    <small>2023 – 2027</small>
+                    <h3>B.Tech – Computer Science and Engineering</h3>
+                    <p>QIS College of Engineering and Technology, Ongole</p>
+                    <strong>CGPA: 8.0</strong>
+                </div>
+
+                <div class="timeline-card">
+                    <small>2021 – 2023</small>
+                    <h3>Intermediate – MPC</h3>
+                    <p>Vagdevi Junior College, Narasaraopet</p>
+                    <strong>87%</strong>
+                </div>
+
+                <div class="timeline-card">
+                    <small>2020 – 2021</small>
+                    <h3>SSC</h3>
+                    <p>ZPHS High School, Nagulavaram</p>
+                    <strong>98%</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
+                <h2>My <span>Projects</span></h2>
+            </div>
+
+            <div class="card-grid">
+                <div class="project-card">
+                    <div class="project-image software-image">01</div>
+                    <div class="project-content">
+                        <small>SOFTWARE PROJECT</small>
+                        <h3>Student Management System</h3>
+                        <p>
+                            A system designed to manage student
+                            information and academic records.
+                            Planned functions include adding,
+                            viewing, updating and deleting
+                            student details.
+                        </p>
+                        <div class="chips">
+                            <span>Java</span>
+                            <span>JDBC</span>
+                            <span>SQL</span>
+                            <span>MySQL</span>
+                        </div>
+                        <p class="note">
+                            Update this description according to
+                            the features actually implemented.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image energy-image">⚡</div>
+                    <div class="project-content">
+                        <small>HARDWARE PROJECT</small>
+                        <h3>Low Cost Footstep Energy Generator for Rural Applications</h3>
+                        <p>
+                            Converts mechanical energy from human
+                            footsteps into electrical energy using
+                            piezoelectric sensors beneath a pressure
+                            plate. The output is conditioned using
+                            a rectifier and can be stored temporarily.
+                        </p>
+                        <div class="chips">
+                            <span>Piezoelectric Sensors</span>
+                            <span>Rectifier</span>
+                            <span>Energy Harvesting</span>
+                        </div>
+                        <p class="note">
+                            Output is small and intermittent and
+                            is not suitable for large-scale
+                            electricity generation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="section" id="certifications">
+            <div class="section-heading">
+                <p class="eyebrow">CONTINUOUS LEARNING</p>
+                <h2>Certifi<span>cations</span></h2>
+            </div>
+
+            <div class="card-grid">
+                <div class="info-card">
+                    <h3>Java Full Stack Developer</h3>
+                    <p>Edu Skills</p>
+                    <small>June 2025</small>
+                    <a href="assets/certificates/README.txt">Certificate placeholder</a>
+                </div>
+
+                <div class="info-card">
+                    <h3>Java Developer</h3>
+                    <p>Infosys Springboard</p>
+                    <small>May 2026</small>
+                    <a href="assets/certificates/README.txt">Certificate placeholder</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME -->
+        <section class="section" id="resume">
+            <div class="section-heading">
+                <p class="eyebrow">MY PROFESSIONAL PROFILE</p>
+                <h2>My <span>Resume</span></h2>
+            </div>
+
+            <div class="resume-card">
+                <div>
+                    <h3>Gangula_Akshaya_Resume.pdf</h3>
+                    <p>Add your actual resume PDF to the assets folder.</p>
+                    <small>assets/Gangula_Akshaya_Resume.pdf</small>
+                </div>
+
+                <div class="hero-buttons">
+                    <a class="button primary"
+                       href="assets/Gangula_Akshaya_Resume.pdf"
+                       target="_blank">Open Resume</a>
+
+                    <a class="button secondary"
+                       href="assets/Gangula_Akshaya_Resume.pdf"
+                       download>Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <a href="mailto:gangulaakshaya49@gmail.com">
+                        Email: gangulaakshaya49@gmail.com
+                    </a>
+
+                    <a href="tel:9063959822">
+                        Phone: 9063959822
+                    </a>
+
+                    <a href="https://github.com/GangulaAkshaya" target="_blank">
+                        GitHub: GangulaAkshaya
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/akshaya-gangula" target="_blank">
+                        LinkedIn: akshaya-gangula
+                    </a>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="button primary">
+                        Prepare Email
+                    </button>
+
+                    <small>
+                        This form opens your email application.
+                        It does not directly send or store messages.
+                    </small>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <a href="#home" class="logo">GA<span>.</span></a>
+            <p>Designed and developed by Gangula Akshaya</p>
+            <a href="#home">Back to Top ↑</a>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
